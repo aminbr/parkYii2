@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 11:09:01 AM
+    Author     : hesam
+*/
+.section-tab{
+    z-index: 100;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+}
+/*Box sizing stuff*/
+/*Font styels*/
+
+
+/*img stuff*/
+#generic-tabs{
+    text-align: right;
+    width:97%; 
+    padding:20px 0px;
+    margin: 0 auto;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+/*Tab styles*/
+#generic-tabs ul {
+    overflow: hidden; 
+    margin:0; 
+    padding:0;
+}
+#generic-tabs ul li{ 
+    float:left; 
+    display:inline-block; 
+    width:33.3%; 
+    background:#EDEDED; 
+    border-top:4px solid #CCCCCC; 
+    border-right:1px solid #CCCCCC;
+}
+#generic-tabs ul li:last-child {
+    border-right:none;
+}
+#generic-tabs ul li:first-child { 
+    padding-left:0; 
+}
+
+/*Tab link styles*/
+#generic-tabs ul li a {
+    text-align:center; 
+    display:block; 
+    font-size: 1.2em; 
+    text-decoration: none; 
+    padding: 1.2em 1em; 
+    line-height: 16px; 
+    color:#BBBBBB;
+}
+
+/*Active tab styles*/
+#generic-tabs ul li.active {
+    background:#FFFFFF; 
+    border-top:4px solid #27ae60;
+}
+#generic-tabs ul li.active a { 
+    color:#333333;
+}
+#generic-tabs ul li.active a i {
+    color:#27ae60;
+}
+
+/*Tab content styles*/
+
+#generic-tabs .tab-content{ 
+    background:#FFFFFF;
+    max-height: 600px;
+    padding:0em 1em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#generic-tabs .tab-content p{ 
+    padding-top: 10px;
+    font-size: 17px;
+    color: #444;
+    line-height: 30px;
+}
+#generic-tabs .tab-content section img{
+    width: 100%;
+}
+#generic-tabs .tab-content div{ 
+    
+}
+#generic-tabs .tab-content h1 {
+    margin-top:0;
+}
+.tab-content > section{
+    padding: 20px 0;
+    /*border-bottom: 1px solid #ddd;*/
+}
